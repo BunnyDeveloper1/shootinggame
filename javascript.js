@@ -62,8 +62,8 @@ let horizantal = window.setInterval(function horizantal_birds(){
 			div.remove();
 			score +=1;
 			document.getElementById("score").innerHTML = "Socre: "+score;
-			ammo -= 1;
-			document.getElementById("ammo").innerHTML = "Ammo: "+ammo;
+			
+			
 			
 		}
 		div.style.backgroundImage="url('https://c.tenor.com/C666tV6wcScAAAAj/flying-bird-gif-bird.gif')";
@@ -100,8 +100,8 @@ let virtical = window.setInterval(function virtical_birds(){
 			div.remove();
 			score +=1;
 			document.getElementById("score").innerHTML = "Socre: "+score;
-			ammo -= 1;
-			document.getElementById("ammo").innerHTML = "Ammo: "+ammo;
+			
+			
 		}
 		div.style.backgroundImage="url('https://c.tenor.com/cyIGzBteQlQAAAAi/rio-bird.gif')";
 		div.style.backgroundSize="100% 100%";
