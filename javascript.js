@@ -43,7 +43,7 @@ let times = window.setInterval(function time_s(){
 	losses();
 	timer -= 1;
 	document.getElementById("time").innerHTML = "Timer: "+timer;
-	console.log(timer);
+	
 	
 	}, 1000);
 
