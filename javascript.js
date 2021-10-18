@@ -39,11 +39,12 @@ function shoot(){
 
 };
 let times = window.setInterval(function time_s(){
+	win();
+	losses();
 	timer -= 1;
 	document.getElementById("time").innerHTML = "Timer: "+timer;
 	console.log(timer);
-	win();
-	losses();
+	
 	}, 1000);
 
 
