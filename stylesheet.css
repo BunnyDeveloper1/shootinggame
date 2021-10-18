@@ -1,0 +1,50 @@
+body{
+	 cursor: url("images/target.png"), auto !important;
+	 
+}
+
+#backgrounds{
+	
+	background-image:url('images/background.jpg');
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+}
+#bush{
+	
+	background-image:url('https://www.pinclipart.com/picdir/big/44-449257_green-bush-cliparts-bush-png-clip-art-transparent.png');
+	background-size:160px 150px;
+	width:100%;
+	height:150px;
+	display:block;
+	background-repeat: repeat-x round;
+	position:absolute;
+	bottom:0;
+}
+
+
+
+@keyframes birdmovehorizantal{
+	from{
+		right:0;
+		display:block;
+	}
+	to{
+		right:100%;
+	}
+}
+@keyframes birdmovevirtical{
+	from{
+		bottom:15px;
+		display:block;
+	}
+	to{
+		bottom:100%;
+	}
+	
+}
+
+.lbl{
+	color:white;
+	font-size:24px;
+}
