@@ -13,7 +13,7 @@ music.style.display = "none";
 function setvalues(){
 	
 	ammo = 10
-	timer = 15;
+	timer = 30;
 	target = 8;
 }
 function win(){
